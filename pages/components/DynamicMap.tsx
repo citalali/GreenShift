@@ -8,6 +8,7 @@ interface DynamicMapProps {
 const DynamicMap: React.FC<DynamicMapProps> = ({ center }) => {
   // @ts-ignore
   return (
+    <div>Map</div>
     /**<MapContainer
       // center={center}
       zoom={13}
