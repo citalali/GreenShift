@@ -9,9 +9,8 @@ const nextConfig = {
   assetPrefix: "./",
 };
 
-module.exports = {
+export default {
   // other configurations...
   output: "out",
+  ...nextConfig,
 };
-
-export default nextConfig;
