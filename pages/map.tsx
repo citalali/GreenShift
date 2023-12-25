@@ -8,11 +8,6 @@ const DynamicMap = dynamic(() => import("./components/DynamicMap"), {
 });
 
 const Map = () => {
-  useEffect(() => {
-    // Load Leaflet CSS dynamically
-    import("leaflet/dist/leaflet.css");
-  }, []);
-
   const mapCenter = [52.5096, 13.3759];
 
   return (
