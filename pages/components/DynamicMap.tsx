@@ -1,9 +1,7 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 
-interface DynamicMapProps {
-  center: number[]; // Define the center prop here
-}
+interface DynamicMapProps {}
 
 const DynamicMap: React.FC<DynamicMapProps> = ({ center }) => {
   // @ts-ignore
