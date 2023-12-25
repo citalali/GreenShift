@@ -11,6 +11,6 @@ const nextConfig = {
 
 export default {
   // other configurations...
-  output: "out",
+  output: "export",
   ...nextConfig,
 };
