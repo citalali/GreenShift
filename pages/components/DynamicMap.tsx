@@ -6,6 +6,7 @@ interface DynamicMapProps {
 }
 
 const DynamicMap: React.FC<DynamicMapProps> = ({ center }) => {
+  // @ts-ignore
   return (
     <MapContainer
       center={center}
