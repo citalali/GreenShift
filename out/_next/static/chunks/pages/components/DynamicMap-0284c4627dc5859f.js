@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[611,623],{9821:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/DynamicMap",function(){return _(2623)}])},2623:function(n,u,_){"use strict";_.r(u);var c=_(5893);_(7294),u.default=()=>(0,c.jsx)("div",{children:"Map"})}},function(n){n.O(0,[774,888,179],function(){return n(n.s=9821)}),_N_E=n.O()}]);
