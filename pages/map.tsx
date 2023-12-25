@@ -13,6 +13,8 @@ const Map = () => {
     import("leaflet/dist/leaflet.css");
   }, []);
 
+  const mapCenter = [52.5096, 13.3759];
+
   return (
     <div className="root">
       <Head>
@@ -21,7 +23,7 @@ const Map = () => {
       </Head>
       <Page>
         <main>
-          <DynamicMap />
+          <DynamicMap center={mapCenter} />
         </main>
       </Page>
     </div>

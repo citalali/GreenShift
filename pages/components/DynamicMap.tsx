@@ -1,19 +1,22 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import React from "react";
+import { MapContainer, TileLayer } from "react-leaflet";
 
-const DynamicMap = () => {
+interface DynamicMapProps {
+  center: number[]; // Define the center prop here
+}
+
+const DynamicMap: React.FC<DynamicMapProps> = ({ center }) => {
   return (
     <MapContainer
-      center={[52.5096, 13.3759]}
-      zoom={33}
+      center={center}
+      zoom={13}
       style={{ width: "100%", height: "400px" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={[52.5096, 13.3759]}>
-        <Popup>a nice shop :)</Popup>
-      </Marker>
+      {/* Additional map layers or components go here */}
     </MapContainer>
   );
 };
