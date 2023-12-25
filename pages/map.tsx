@@ -23,7 +23,7 @@ const Map = () => {
       </Head>
       <Page>
         <main>
-          <DynamicMap center={mapCenter} />
+          <DynamicMap />
         </main>
       </Page>
     </div>
