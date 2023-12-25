@@ -1,11 +1,6 @@
-body {
+.page {
   --primary-color: #3498db;
   --secondary-color: #e67e22;
   --background-color: #f8f9fa;
   --text-color: #3d3d3d;
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
