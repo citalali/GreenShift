@@ -3,7 +3,7 @@ import { MapContainer, TileLayer } from "react-leaflet";
 
 interface DynamicMapProps {}
 
-const DynamicMap: React.FC<DynamicMapProps> = ({ center }) => {
+const DynamicMap: React.FC<DynamicMapProps> = () => {
   // @ts-ignore
   return (
     <div>Map</div>
